@@ -63,3 +63,14 @@ fun ContohSet(){
     val shapesLocked:Set<String> = shape
     println(shapesLocked)
 }
+
+//map adalah kumpulan data yang disusun dalam pasangan key-value
+//map bersifat unordered, artinya data yang dimasukkan tidak memiliki posisi tertentu
+//map bersifat mutable dan read only, artinya data yang dimasukkan dapat diubah dan tidak dapat diubajh
+//map Read-Only menggunakan mapOf
+//map muttable menggunakan mutableMapOf
+
+fun Contohset() {
+    println()
+    println("=== Map ===")
+}
