@@ -45,4 +45,9 @@ fun Perulangan() {
     for (i in 1..5) {
         println("Perulangan ke-$i")
     }
+
+    val cars = listOf("BMW", "Toyoya", "Honda", "Audi")
+    for (car in cars) {
+        println("Car type: $car")
+    }
 }
