@@ -11,4 +11,8 @@ fun ContohList(){
     //list Read only
     val readOnlyAbjad = listOf("A", "B", "C")
     println(readOnlyAbjad)
+
+    //list muutable
+    val shape: MutableList<String> = mutableListOf("Circle", "Squire", "Triangle")
+    println(shape)
 }
