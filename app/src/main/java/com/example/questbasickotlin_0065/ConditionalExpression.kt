@@ -63,3 +63,8 @@ fun Perulangan() {
         y++
     }while (y <= 5)
 }
+
+fun main() {
+    ConditionalStantement()
+    Perulangan()
+}
