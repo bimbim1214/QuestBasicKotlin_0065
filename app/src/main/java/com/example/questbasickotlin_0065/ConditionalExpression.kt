@@ -12,4 +12,17 @@ fun ConditionalStantement() {
     }else {
         println("Negative Number")
     }
+
+    //when
+    val day = 1
+    when (day) {
+        1-> println("sunday")
+        2-> println("monday")
+        3-> println("tuesday")
+        4-> println("wednesday")
+        5-> println("thursday")
+        6-> println("fryday")
+        7-> println("saturday")
+        else -> println("invalid day")
+    }
 }
