@@ -56,4 +56,10 @@ fun Perulangan() {
         println("Perulangan ke$-x")
         x++
     }
+
+    var y = 1
+    do {
+        println("Prulangan ke-$y")
+        y++
+    }while (y <= 5)
 }
