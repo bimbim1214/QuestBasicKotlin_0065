@@ -1,5 +1,7 @@
 package com.example.questbasickotlin_0065
 
+import java.lang.NumberFormatException
+
 //conditional Expresion adalah ekspresi yang mengembalilkan nilai berdasarkan kondisi tertentu
 //conditional expresion menggunakan if-else, when, dan try-catch
 fun ConditionalStantement() {
@@ -24,5 +26,14 @@ fun ConditionalStantement() {
         6-> println("fryday")
         7-> println("saturday")
         else -> println("invalid day")
+    }
+
+    //Try-Catch
+    val value = "10"
+    try {
+        val result = value.toInt()
+        println("Result: $result")
+    } catch (e:NumberFormatException) {
+        println("Invalid Number")
     }
 }
