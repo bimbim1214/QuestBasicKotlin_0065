@@ -70,7 +70,7 @@ fun ContohSet(){
 //map Read-Only menggunakan mapOf
 //map muttable menggunakan mutableMapOf
 
-fun Contohset() {
+fun ContohMap() {
     println()
     println("=== Map ===")
 
@@ -97,4 +97,10 @@ fun Contohset() {
     //map Read-Only
     val shapeLocked: Map<String, Int> = shape
     println(shapeLocked)
+}
+
+fun main() {
+    ContohList()
+    ContohSet()
+    ContohMap()
 }
