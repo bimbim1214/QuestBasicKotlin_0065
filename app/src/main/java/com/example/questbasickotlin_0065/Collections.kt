@@ -93,4 +93,8 @@ fun Contohset() {
     //mengubah data di dalam map mutable
     shape["Squere"] = 5
     println(shape)
+
+    //map Read-Only
+    val shapeLocked: Map<String, Int> = shape
+    println(shapeLocked)
 }
