@@ -89,4 +89,8 @@ fun Contohset() {
     //menghapus data dari map mutable
     shape.remove("Circle")
     println(shape)
+
+    //mengubah data di dalam map mutable
+    shape["Squere"] = 5
+    println(shape)
 }
